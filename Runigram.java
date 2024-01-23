@@ -11,8 +11,8 @@ public class Runigram {
         //// Hide / change / add to the testing code below, as needed.
 
         // Tests the reading and printing of an image:
-        // Color[][] tinypic = read("tinypic.ppm");
-        // print(tinypic);
+        Color[][] tinypic = read("tinypic.ppm");
+        print(tinypic);
 
         // // Creates an image which will be the result of various
         // // image processing operations:
@@ -211,7 +211,7 @@ public class Runigram {
         for (int i = 0; i < n; i++) {
             double alpha = (double) (n - i) / n;
             display(blend(source, target, alpha));
-            StdDraw.pause(500);
+            StdDraw.pause(10);
         }
     }
 
