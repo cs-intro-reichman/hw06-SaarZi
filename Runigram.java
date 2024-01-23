@@ -11,29 +11,29 @@ public class Runigram {
         //// Hide / change / add to the testing code below, as needed.
 
         // Tests the reading and printing of an image:
-        Color[][] tinypic = read("tinypic.ppm");
-        print(tinypic);
+        // Color[][] tinypic = read("tinypic.ppm");
+        // print(tinypic);
 
-        // Creates an image which will be the result of various
-        // image processing operations:
-        Color[][] imageOut;
+        // // Creates an image which will be the result of various
+        // // image processing operations:
+        // Color[][] imageOut;
 
-        // Tests the horizontal flipping of an image:
-        imageOut = flippedHorizontally(tinypic);
-        System.out.println();
-        print(imageOut);
+        // // Tests the horizontal flipping of an image:
+        // imageOut = flippedHorizontally(tinypic);
+        // System.out.println();
+        // print(imageOut);
 
-        imageOut = flippedVertically(tinypic);
-        System.out.println();
-        print(imageOut);
+        // imageOut = flippedVertically(tinypic);
+        // System.out.println();
+        // print(imageOut);
 
-        imageOut = grayScaled(tinypic);
-        System.out.println();
-        print(imageOut);
+        // imageOut = grayScaled(tinypic);
+        // System.out.println();
+        // print(imageOut);
 
-        imageOut = scaled(tinypic, 3, 5);
-        System.out.println();
-        print(imageOut);
+        // imageOut = scaled(tinypic, 3, 5);
+        // System.out.println();
+        // print(imageOut);
 
         //// Write here whatever code you need in order to test your work.
         //// You can reuse / overide the contents of the imageOut array.
