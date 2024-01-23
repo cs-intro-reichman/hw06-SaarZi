@@ -153,9 +153,9 @@ public class Runigram {
         Color[][] result = new Color[height][width];
         for (int i = 0; i < result.length; i++) {
             for (int j = 0; j < result[0].length; j++) {
-                int row = (i * image.length / height);
+                int row = (int) (i * (double) image.length / height);
                 // row = row < 0 ? 0 : row >= image.length ? row = image.length - 1 : row;
-                int col = (j * image[0].length / width);
+                int col = (int) (j * (double) image[0].length / width);
                 // col = col < 0 ? 0 : col >= image[0].length ? col = image[0].length - 1 : col;
                 result[i][j] = image[row][col];
             }
