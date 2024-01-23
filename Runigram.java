@@ -209,7 +209,7 @@ public class Runigram {
         //// Replace this comment with your code
         target = scaled(target, source[0].length, source.length);
         for (int i = 0; i < n; i++) {
-            int alpha = (n - i) / n;
+            double alpha = (double) (n - i) / n;
             display(blend(source, target, alpha));
             StdDraw.pause(500);
         }
